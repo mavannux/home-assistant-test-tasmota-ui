@@ -10,15 +10,15 @@ export const styles = css`
 
 .tsm-timer {
   border:1px solid #aaa;
-  background-color: #ddd;
+  background-color: #d4ebff;
   height: 3em;
+  position: relative;
 }
 
 .tsm-timer-number {
   width: 3em;
   background-color: yellow;
   border: 1px solid #555;
-  _text-align: center;
   height: 100%;
   align-content: center;
   position: relative;
@@ -45,6 +45,14 @@ export const styles = css`
   width: 15px;
 }
 
+.tsm-timer-edit-btn {
+  position: absolute;
+  right: 0;
+  top:0.5em;
+  width:26px;
+  color: #03a9f4;
+}
+
 ha-icon {
   display: inline-block;
   margin: auto;
@@ -58,6 +66,10 @@ ha-icon {
 }
 .tsm-days {
   font-size: x-small;
+}
+
+.edit-timer-dlg > div {
+  padding: 0.5em 0;
 }
 `;
 
