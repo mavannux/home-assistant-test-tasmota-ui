@@ -24,6 +24,7 @@
   "dependencies": {
     "@material/mwc-dialog": "^0.15.0",
     "@material/mwc-select": "^0.15.0",
+    "card-tools": "github:thomasloven/lovelace-card-tools",
     "custom-card-helpers": "^1.6.4",
     "lit-element": "^2.3.1"
   }

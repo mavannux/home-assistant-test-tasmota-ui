@@ -67,10 +67,19 @@ ha-icon {
 .tsm-days {
   font-size: x-small;
 }
+`;
 
+export const editDialogStyle = css`
+.edit-timer-dlg {
+  padding: 0 1em;
+}
 .edit-timer-dlg > div {
   padding: 0.5em 0;
 }
-`;
+.edit-timer-dlg .actions {
+  float:right;
+  padding: 1.3em 0;
+}
+`
 
 export default styles;
